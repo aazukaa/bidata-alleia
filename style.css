@@ -1,0 +1,96 @@
+*,html {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background-color: gray;
+}
+
+.container{
+;
+}
+.container-navbar{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type:none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-size: 30px;
+}
+
+.li-navbar:hover {
+    background-color: gray;
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+}
+
+.a-navbar{
+    color:white;
+    text-decoration:none; 
+}
+
+.container-content1{
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-content {
+    background-color: black;
+    width: 720px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1tentangsaya {
+    width: 720px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+
+.biodata {
+
+    width: 720px;
+    height: 480px;
+    display: flex;
+    justify-content: left;
+    font-size: 50px;
+}
+.img-content{
+    width: 720px;
+    height: 480px;
+}
+
+.container-footer{
+    height: 10vh;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1footer{
+    font-size: 40px ;
+}
